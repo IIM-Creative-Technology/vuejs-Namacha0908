@@ -1,24 +1,13 @@
 <template>
-  <section>
-      <title>Créer une nouvelle page de blog</title>
-       <label for="title">Titre de la page :</label>
-        <input name="title" type="text" required>
-        <label for="meta">Meta Title :</label>
-        <input name="meta" type="text" required>
-        <label for="img">Ajouter une image</label>
-        <input name="img" type="file" accept="image/png, image/jpeg" required>
-        <label for="post">Ajouter une image</label>
-        <textarea name="post" required></textarea>
-        <input type="submit" value="Créer la page">
-  </section>
+ <CreatePage></CreatePage>
 </template>
-
+<style>
+</style>
 <script>
+import CreatePage from '@/components/CreatePage'
 export default {
-name: 'Create',
+  components: {
+      CreatePage
+      }
 }
 </script>
-
-<style>
-
-</style>

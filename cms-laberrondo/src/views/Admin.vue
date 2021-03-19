@@ -1,20 +1,13 @@
 <template>
-  <section class="admin">
-    <button ><router-link to="/create">Créer une page</router-link></button>
-    <div class="listBlog">
-
-    </div>
-  </section>
+  <ManageBlog></ManageBlog>
 </template>
-
+<style>
+</style>
 <script>
-// @ is an alias to /src
-
-
-export default {
-  name: 'Admin',
-  components: {
-    
+  import ManageBlog from '@/components/ManageBlog'
+  export default {
+    components: {
+      ManageBlog
+    }
   }
-}
 </script>
