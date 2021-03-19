@@ -31,7 +31,7 @@
                     <img
                         src="https://cdn.shopify.com/s/files/1/0226/5389/4728/products/poster-marvel-iron-man-profil_480x.jpg?v=1572036883">
 
-                    <input class="file-input" type="file" name="resume">
+                    <input type="file">
 
 
                 </div>
